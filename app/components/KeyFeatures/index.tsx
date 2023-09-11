@@ -1,44 +1,5 @@
 import "./index.css";
 
-const keyFeaturesList = [
-  [
-    {
-      id: 1,
-      imageUrl: "",
-      title: "Broker of Your Choice",
-      text: "Experience seamless investment with your broker. TIPO is tied-up with +13 brokers so you can invest in a few clicks.",
-    },
-    {
-      id: 2,
-      imageUrl: "",
-      title: "Broker of Your Choice",
-      text: "Experience seamless investment with your broker. TIPO is tied-up with +13 brokers so you can invest in a few clicks.",
-    },
-  ],
-  [
-    {
-      id: 3,
-      imageUrl: "",
-      title: "Broker of Your Choice",
-      text: "Experience seamless investment with your broker. TIPO is tied-up with +13 brokers so you can invest in a few clicks.",
-    },
-    {
-      id: 4,
-      imageUrl: "",
-      title: "Broker of Your Choice",
-      text: "Experience seamless investment with your broker. TIPO is tied-up with +13 brokers so you can invest in a few clicks.",
-    },
-  ],
-  [
-    {
-      id: 5,
-      imageUrl: "",
-      title: "Broker of Your Choice",
-      text: "Experience seamless investment with your broker. TIPO is tied-up with +13 brokers so you can invest in a few clicks.",
-    },
-  ],
-];
-
 const KeyFeatures = () => {
   return (
     <div className="Key-Features-section-bg-container">
