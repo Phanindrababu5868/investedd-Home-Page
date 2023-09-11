@@ -8,10 +8,10 @@ import "./index.css";
 import React from "react";
 
 interface NavProps {
-  onClick: () => void;
+  onClickHandler: () => void;
 }
 
-const Navbar: NavProps = ({ onClickHandler }) => {
+const Navbar: React.FC<NavProps> = ({ onClickHandler }) => {
   const [isDropdownOpenLearMore, setIsDropdownOpenLearMore] = useState(false);
   const [isDropdownOpensupport, setIsDropdownOpenSupport] = useState(false);
 
