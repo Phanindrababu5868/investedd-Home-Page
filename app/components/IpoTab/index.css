@@ -1,0 +1,153 @@
+.tab-section-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.tab-section-tab-title {
+  color: var(--type-heading, #003c4d);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-top: 36px;
+}
+
+.tab-section-tab-caption {
+  color: var(--type-alt, #52757f);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.tab-section-ipo-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.tab-section-ipo-card {
+  width: 352px;
+  height: 446px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 30px 0px;
+  padding: 20px 0px;
+  border-radius: 16px;
+  background: var(--working-color-white, #fff);
+  box-shadow: 0px 4px 6px -2px rgba(14, 188, 236, 0.08),
+    0px 2px 12px 0px rgba(0, 60, 77, 0.12);
+}
+
+.tab-section-ipo-card-title-container {
+  display: flex;
+  width: 276px;
+  align-items: center;
+  gap: 12px;
+  margin-left: 30px;
+}
+
+.tab-section-ipo-card-img {
+  width: 36px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+.tab-section-ipo-card-ipo-comapny-name {
+  color: var(--type-heading, #003c4d);
+  align-self: stretch;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.tab-section-ipo-card-price-container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 30px;
+}
+
+.tab-section-ipo-card-price-caption {
+  color: var(--type-alt, #52757f);
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.tab-section-ipo-card-price {
+  color: var(--type-heading, #003c4d);
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.tab-section-ipo-card-gain-price {
+  color: var(--semantic-green, #30d6b0);
+}
+
+.tab-section-ipo-card-graph-stroke {
+  width: 100%;
+  height: 80px;
+  flex-shrink: 0;
+}
+.stroke-2 {
+  width: 390px;
+  height: 60.862px;
+  flex-shrink: 0;
+  stroke-width: 1.311px;
+  stroke: #f6fcfe;
+}
+
+.tab-section-ipo-card-investement-text {
+  color: var(--type-alt, #52757f);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  margin-left: 30px;
+}
+
+.tab-section-buttons-bg-container {
+  display: flex;
+  padding: 0px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.tab-section-ipo-card-small-btn {
+  display: flex;
+  width: 160px;
+  height: 44px;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: var(--scheme-one-primary, #0ebcec);
+  border: 1px solid var(--scheme-one-primary-tint);
+  background: transparent;
+  box-shadow: none;
+}

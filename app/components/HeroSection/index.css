@@ -1,0 +1,236 @@
+.Hero-section-bg-container {
+  display: flex;
+  width: 1280px;
+  padding: 64px 80px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  background: linear-gradient(
+      86deg,
+      #fff 0%,
+      rgba(255, 255, 255, 0.96) 24.28%,
+      rgba(255, 255, 255, 0.75) 100%
+    ),
+    lightgray 0px -0.219px / 100% 223.999% no-repeat, #fff;
+}
+
+.Hero-section-details-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  flex: 1 0 0;
+}
+
+.Hero-section-details-bg-container > h1 {
+  color: var(--type-heading, #003c4d);
+  font-family: "Roboto";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.Hero-section-details-bg-container > p {
+  color: var(--type-alt, #52757f);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+button {
+  display: flex;
+  height: 44px;
+  padding: 4px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  background: var(--scheme-one-primary, #0ebcec);
+  box-shadow: 0px 4px 6px -2px rgba(14, 188, 236, 0.08),
+    0px 12px 16px -4px rgba(0, 60, 77, 0.08);
+}
+
+.Hero-section-details-bg-container > div {
+  display: flex;
+  align-items: center;
+}
+
+.Hero-section-images-bg-container {
+  display: flex;
+  padding: 0px 4px;
+  align-items: center;
+  gap: -6px;
+  margin-left: 30px;
+}
+
+.zerodha-img {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: url("/Images/Zerodha.jpg"), lightgray 50% / cover no-repeat;
+  box-shadow: 0px 4px 6px -2px rgba(14, 188, 236, 0.08),
+    0px 12px 16px -4px rgba(0, 60, 77, 0.08);
+}
+
+.HDFC-img {
+  width: 40px;
+  height: 20px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: url("/Images/HDFC.jpg"), lightgray 50% / cover no-repeat;
+  box-shadow: 0px 4px 6px -2px rgba(14, 188, 236, 0.08),
+    0px 12px 16px -4px rgba(0, 60, 77, 0.08);
+}
+
+.Kotak-img {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: url("/Images/Kotak.jpg"), lightgray 50% / cover no-repeat;
+  box-shadow: 0px 4px 6px -2px rgba(14, 188, 236, 0.08),
+    0px 12px 16px -4px rgba(0, 60, 77, 0.08);
+}
+
+.Axis-img {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: url("/Images/Axis.jpg"), lightgray 50% / cover no-repeat;
+  box-shadow: 0px 4px 6px -2px rgba(14, 188, 236, 0.08),
+    0px 12px 16px -4px rgba(0, 60, 77, 0.08);
+}
+
+.Sbi-img {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: url("/Images/sbi.jpg"), lightgray 50% / cover no-repeat;
+  box-shadow: 0px 4px 6px -2px rgba(14, 188, 236, 0.08),
+    0px 12px 16px -4px rgba(0, 60, 77, 0.08);
+}
+
+.Hero-section-images-bg-container > span {
+  color: var(--type-alt, #52757f);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.Hero-section-Featured-Products {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.Hero-section-Featured-Products-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.Spacer {
+  width: 100px;
+  height: 8px;
+}
+
+.Hero-section-Featured-Products-card {
+  border-radius: 20px;
+  min-width: 180px;
+}
+
+.IPO-card {
+  padding: 18px;
+  border: 2px solid var(--semantic-indigo, #4269f2);
+  background: var(
+    --Test,
+    linear-gradient(135deg, #fff 33.34%, rgba(255, 255, 255, 0.85) 100%),
+    #4269f2
+  );
+  box-shadow: 0px 8px 8px -4px rgba(14, 188, 236, 0.03),
+    0px 20px 24px -4px rgba(0, 60, 77, 0.1);
+}
+
+.NCD-card {
+  padding: 18px;
+  border: 2px solid var(--semantic-red, #fe6868);
+  background: linear-gradient(
+      135deg,
+      #fff 33.34%,
+      rgba(255, 255, 255, 0.85) 100%
+    ),
+    #fe8668;
+  box-shadow: 0px 8px 8px -4px rgba(14, 188, 236, 0.03),
+    0px 20px 24px -4px rgba(0, 60, 77, 0.1);
+}
+
+.SGB-card {
+  padding: 18px;
+  border: 2px solid var(--semantic-yellow, #fdbc1f);
+  background: linear-gradient(
+      135deg,
+      #fff 33.34%,
+      rgba(255, 255, 255, 0.85) 100%
+    ),
+    #fdbc1f;
+
+  box-shadow: 0px 8px 8px -4px rgba(14, 188, 236, 0.03),
+    0px 20px 24px -4px rgba(0, 60, 77, 0.1);
+}
+
+.Hero-section-Featured-Products-card > h2 {
+  color: var(--type-heading, #003c4d);
+  font-family: Roboto;
+  font-size: 25.19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.Hero-section-Featured-Products-card-bold {
+  color: var(--type-heading, #003c4d);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.Hero-section-Featured-Products-card-persantage {
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.IPO-text {
+  color: var(--semantic-indigo, #4269f2);
+}
+
+.NCD-text {
+  color: var(--semantic-red, #fe6868);
+}
+
+.SGB-text {
+  color: var(--semantic-yellow, #fdbc1f);
+}
+
+.Hero-section-Featured-Products-card > h6 {
+  color: var(--type-alt, #52757f);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}

@@ -1,0 +1,52 @@
+.our-story-section-bg-container {
+  display: flex;
+  width: 1280px;
+  padding: 44px 80px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.our-story-section-heading {
+  color: var(--type-heading, #003c4d);
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.our-story-section-description {
+  color: var(--type-dark, #212427);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  max-width: 544px;
+}
+
+.our-story-section-read-more-container {
+  display: flex;
+  height: 44px;
+  padding: 12px 8px 4px 0px;
+  align-items: center;
+  gap: 4px;
+}
+
+.our-story-section-read-more-text {
+  color: var(--scheme-one-primary, #0ebcec);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.our-story-section-arrow-img {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
