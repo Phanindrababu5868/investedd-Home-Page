@@ -104,7 +104,7 @@ const NewSGB = () => {
         >
           <mask
             id="mask0_2536_3627"
-            style={{ "mask-type": "alpha" }}
+            className="svg-style"
             maskUnits="userSpaceOnUse"
             x="0"
             y="0"

@@ -214,3 +214,7 @@
   display: flex;
   align-items: center;
 }
+
+.new-ipo-card-text-size {
+  font-size: 14px;
+}

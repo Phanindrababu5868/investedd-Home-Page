@@ -106,7 +106,7 @@ const NewIpo = () => {
               <span className="new-ipo-price">2000 IC</span>
             </div>
           </div>
-          <span className="new-ipo-card-text" style={{ "font-size": "14px" }}>
+          <span className="new-ipo-card-text-size">
             Explore and do minimum investment of ₹20,000 in any IPO
           </span>
         </div>

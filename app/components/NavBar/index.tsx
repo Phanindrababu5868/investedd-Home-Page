@@ -55,7 +55,8 @@ const Navbar: React.FC<NavProps> = ({ onClickHandler }) => {
                 >
                   <mask
                     id="mask0_4860_8495"
-                    style={{ "mask-type": "alpha" }}
+                    // style={{ "mask-type": "alpha" }}
+                    className="svg-style"
                     maskUnits="userSpaceOnUse"
                     x="0"
                     y="0"
@@ -112,7 +113,8 @@ const Navbar: React.FC<NavProps> = ({ onClickHandler }) => {
                 >
                   <mask
                     id="mask0_4860_8495"
-                    style={{ "mask-type": "alpha" }}
+                    // style={{ "mask-type": "alpha" }}
+                    className="svg-style"
                     maskUnits="userSpaceOnUse"
                     x="0"
                     y="0"
