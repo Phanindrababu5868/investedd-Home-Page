@@ -79,7 +79,7 @@ const Footer = () => {
             <div className="footer-section-details-links-conatiner">
               <div className="social-links-container">
                 <img
-                  src="/Images/facebook.png"
+                  src="/Images/Facebook.png"
                   className="social-medial-icon"
                   alt="face book"
                 />
@@ -87,7 +87,7 @@ const Footer = () => {
               </div>
               <div className="social-links-container">
                 <img
-                  src="/Images/instagram.png"
+                  src="/Images/Instagram.png"
                   className="social-medial-icon"
                   alt="instagram"
                 />
@@ -95,7 +95,7 @@ const Footer = () => {
               </div>
               <div className="social-links-container">
                 <img
-                  src="/Images/twitter.png"
+                  src="/Images/Twitter.png"
                   className="social-medial-icon"
                   alt="twitter"
                 />
@@ -103,7 +103,7 @@ const Footer = () => {
               </div>
               <div className="social-links-container">
                 <img
-                  src="/Images/linkedIn.png"
+                  src="/Images/LinkedIn.png"
                   className="social-medial-icon"
                   alt="linked in"
                 />
