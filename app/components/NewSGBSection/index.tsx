@@ -154,7 +154,7 @@ const NewSGB = () => {
             onClick={handleNextClick}
             disabled={endIndex === sgbData.length}
           >
-            <img src="/Images/RightArrow.png" className="slide-arrow-img" />
+            <img src="/Images/Rightarrow.png" className="slide-arrow-img" />
           </button>
         </div>
       </div>
