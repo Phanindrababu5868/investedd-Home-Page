@@ -82,8 +82,8 @@ const NewNCD = () => {
         </p>
       </div>
       <div className="new-NCD-section-crad-deck">
-        {visibleItems.map((eachNCD) => (
-          <div className="new-NCD-section-card">
+        {visibleItems.map((eachNCD, index) => (
+          <div className="new-NCD-section-card" key={index}>
             <div className="new-NCD-section-title-container">
               <img
                 src={eachNCD.logo}
@@ -134,7 +134,7 @@ const NewNCD = () => {
             onClick={handleNextClick}
             disabled={endIndex >= ncdData.length}
           >
-            <img src="/Images/RightArrow.png" className="slide-arrow-img" />
+            <img src="/Images/Rightarrow.png" className="slide-arrow-img" />
           </button>
         </div>
       </div>
