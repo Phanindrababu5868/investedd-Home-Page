@@ -60,8 +60,8 @@ const NewIpo = () => {
     }
   };
 
-  const cards = visibleItems.map((eachIpo) => (
-    <div className="new-ipo-card">
+  const cards = visibleItems.map((eachIpo, index) => (
+    <div className="new-ipo-card" key={index}>
       <div className="new-ipo-title-container">
         <img
           src={eachIpo.imageurl}
@@ -131,7 +131,11 @@ const NewIpo = () => {
             onClick={handleNextClick}
             disabled={endIndex >= data.length}
           >
-            <img src="/Images/RightArrow.png" className="slide-arrow-img" />
+            <img
+              src="/Images/Rightarrow.png"
+              className="slide-arrow-img"
+              alt="arrow"
+            />
           </button>
         </div>
       </div>
