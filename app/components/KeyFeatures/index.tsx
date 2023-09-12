@@ -7,7 +7,7 @@ const KeyFeatures = () => {
         <div className="Single-Key-Feature-conatiner">
           <div className="Single-Key-Feature-img-container">
             <img
-              src="/images/handshake.jpg"
+              src="/Images/handshake.jpg"
               alt="key-feature-1"
               className="Single-Key-Feature-image"
             />
@@ -23,7 +23,7 @@ const KeyFeatures = () => {
         <div className="Single-Key-Feature-conatiner">
           <div className="Single-Key-Feature-img-container">
             <img
-              src="/images/choice.png"
+              src="/Images/choice.png"
               alt="key-feature-2"
               className="Single-Key-Feature-image"
             />
@@ -42,7 +42,7 @@ const KeyFeatures = () => {
         <div className="Single-Key-Feature-conatiner">
           <div className="Single-Key-Feature-img-container">
             <img
-              src="/images/smartphone.png"
+              src="/Images/smartphone.png"
               alt="key-feature-2"
               className="Single-Key-Feature-image"
             />
@@ -58,7 +58,7 @@ const KeyFeatures = () => {
         <div className="Single-Key-Feature-conatiner">
           <div className="Single-Key-Feature-img-container">
             <img
-              src="/images/exchange.jpg"
+              src="/Images/exchange.jpg"
               alt="key-feature-1"
               className="Single-Key-Feature-image"
             />
@@ -76,7 +76,7 @@ const KeyFeatures = () => {
       <div className="Key-Feature-row">
         <div className="Single-Key-Feature-conatiner">
           <img
-            src="/images/Clipart.jpg"
+            src="/Images/Clipart.jpg"
             alt=""
             className="Single-Key-Feature-img-container"
           />
